@@ -20,6 +20,12 @@ npm run test
 npm run lint
 ```
 
+To run the application
+
+```sh
+npm run start
+```
+
 To continuously monitor the tests while developing
 
 ```sh
