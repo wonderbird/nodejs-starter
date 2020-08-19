@@ -1,0 +1,36 @@
+{
+  "name": "experiment-with-mob-sh",
+  "version": "1.0.0",
+  "description": "Some experiments with the https://mob.sh experience",
+  "private": "true",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "node app/main.js",
+    "test": "nyc --reporter=text mocha --recursive",
+    "test:unit": "mocha --recursive test/app",
+    "test:watch": "mocha \"test/**/*.js\" --watch --watch-extensions js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix --ext .js,.jex ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderbird/experiment-with-mob-sh.git"
+  },
+  "author": "Stefan Boos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wonderbird/experiment-with-mob-sh/issues"
+  },
+  "homepage": "https://github.com/wonderbird/experiment-with-mob-sh#readme",
+  "email": "kontakt@boos.systems",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3",
+    "sinon-chai": "^3.5.0"
+  }
+}
