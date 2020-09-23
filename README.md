@@ -12,7 +12,7 @@ If you have forked it already, see https://deanmalone.net/post/how-to-fork-your-
 
 ## Development
 
-To build the project
+### Build the Project
 
 ```sh
 npm install
@@ -38,6 +38,17 @@ Before pushing to github, please run all tests and the linter
 npm run test
 npm run lint
 ```
+
+### Analyze the Code Complexity
+
+```sh
+npm run complexity
+```
+
+The command above uses the [complexity-report-html](https://github.com/igneel64/complexity-report-html) module to generate two reports
+
+* `.complexity-report/app.html` shows an overview of complexity by file and function for the `app` folder
+* `.complexity-report/test.html` shows an overview of complexity by file and function for the `test` folder
 
 ## References
 
