@@ -28,7 +28,7 @@
   "email": "kontakt@boos.systems",
   "dependencies": {},
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.0",
     "complexity-report-html": "0.0.3",
     "eslint": "^7.19.0",
     "eslint-plugin-node": "^11.1.0",
